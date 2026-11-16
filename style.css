@@ -1,0 +1,285 @@
+
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #050505;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+/* NAVIGATION BAR */
+header {
+    width: 100%;
+    background: #080808;
+    border-bottom: 1px solid #8b20ff;
+    padding: 15px 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    text-shadow: 0 0 12px #a020f0;
+}
+
+/* MENU */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c04cff;
+    text-shadow: 0 0 15px #a020f0;
+}
+
+/* DOWNLOAD CV BUTTON */
+.cv {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #a020f0;
+    padding: 10px 22px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.cv:hover {
+    background: #9225e8;
+    box-shadow: 0 0 20px #a020f0;
+}
+
+/* HOME SECTION */
+
+#home {
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 40px 5%;
+    background: #050505;
+    border-bottom: 1px solid #9b35ff;
+}
+
+/* PROFILE PHOTO */
+
+.profile {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid #a020f0;
+    box-shadow: 0 0 20px #a020f0,
+                0 0 40px #8000ff;
+    overflow: hidden;
+    animation: glow 3s infinite alternate;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* WELCOME TEXT */
+
+.welcome {
+    max-width: 500px;
+}
+
+.welcome h3 {
+    font-size: 25px;
+    font-style: italic;
+    color: #d9a5ff;
+    margin-bottom: 15px;
+}
+
+.welcome h1 {
+    font-size: 55px;
+    color: white;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0 0 15px #a020f0;
+}
+
+.welcome h1:hover {
+    color: #bd65ff;
+}
+
+.welcome h2 {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* LEARN MORE BUTTON */
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #7800ff, #bd55ff);
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #a020f0;
+}
+
+/* SOCIAL SECTION */
+
+.social {
+    border-left: 2px solid #a020f0;
+    padding: 30px;
+    text-align: center;
+}
+
+.social h2 {
+    color: #d9a5ff;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.social p {
+    line-height: 2;
+    margin-bottom: 25px;
+}
+
+.social h3 {
+    color: #d9a5ff;
+    font-style: italic;
+}
+
+/* GLOW ANIMATION */
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 15px #8000ff;
+    }
+
+    to {
+        box-shadow: 0 0 40px #d000ff;
+    }
+}
+/* HOME SECTION */
+
+#home {
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
+    /* HOME SECTION */
+
+#home {
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 40px 5%;
+    background: #050505;
+    border-bottom: 1px solid #9b35ff;
+}
+
+.profile {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid #a020f0;
+    box-shadow: 0 0 30px #a020f0;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.welcome {
+    max-width: 500px;
+}
+
+.welcome h3 {
+    color: #d9a5ff;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.welcome h1 {
+    font-size: 55px;
+    color: #bd55ff;
+    margin: 15px 0;
+}
+
+.welcome h2 {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    background: linear-gradient(90deg, #7800ff, #bd55ff);
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.social {
+    border-left: 2px solid #a020f0;
+    padding: 30px;
+    text-align: center;
+}
+
+.social h2 {
+    color: #d9a5ff;
+    margin-bottom: 25px;
+}
+
+@keyframes glow {
+    from { box-shadow: 0 0 15px #8000ff; }
+    to { box-shadow: 0 0 40px #d000ff; }
+}
+
+.profile {
+    animation: glow 3s infinite alternate;
+}
