@@ -7,7 +7,7 @@
 
     <h1>Welcome to My Website!</h1>
 
-    <p>Hello! My name is Tsehay.</p>
+    <p>Hello! My name is rosa.</p>
 
     <h2>About Me</h2>
     <p>Welcome to my personal website.</p>
